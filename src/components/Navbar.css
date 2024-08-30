@@ -1,0 +1,148 @@
+.navbar {
+    box-shadow: 0px 12px 40px 0px rgba(0, 0, 0, 0.04);
+    background: #FFFFFF;
+    position: relative;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 132px 20px 129px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  
+.logo {
+    margin: 5px 0;
+    width: 100px;
+    height: 50px;
+  }
+
+  
+.nav-links{
+    margin: 18px 0 8px 0;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50vw;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+
+  
+.current {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  
+.current-1 {
+    margin-bottom: 6px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 20px;
+    color: #1C1C1C;
+  }
+
+  
+.rectangle-5 {
+    border-radius: 30px;
+    background: #A60303;
+    margin: 0 18.5px 0 17px;
+    width: 18px;
+    height: 4px;
+  }
+
+  
+.home, .about, .services, .blog, .contact-us {
+    margin-bottom: 10px;
+    display: flex;
+    box-sizing: border-box;
+  }
+
+  
+.home, .about-1, .services-1, .blog-1, .contact-us-1, .log-in, .register-1 {
+    overflow-wrap: break-word;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 20px;
+    color: #5B5B5B;
+  }
+
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: 2vw;
+  }
+
+
+  .cta {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+
+  .log-in {
+    margin: 0 30px 18px 0;
+    display: inline-block;
+  }
+
+  .register {
+    margin-top: -12px;
+    border-radius: 45px;
+    background: #A60303;
+    padding: 15px 13px;
+    width: 121px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .register-1 {
+    font-weight: 600;
+    color: #F2EEE9;
+  }
+
+
+
+  .mobile-menu-icon {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+
+
+  
+
+
+  /* Mobile view */
+@media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+    }
+  
+    .nav-links-mobile {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #333;
+      width: 100%;
+    }
+  
+    .mobile-menu-icon {
+      display: block;
+    }
+  }

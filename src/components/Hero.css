@@ -1,0 +1,38 @@
+/* src/Hero.css */
+.hero-section {
+    padding: 20px 132px 20px 129px;
+}
+
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero-heading {
+    text-align: left;
+    line-height: 1.1;
+}
+
+.hero-heading span {
+    color: #F2B90C;
+  }
+
+.hero-subheading {
+    text-align: left;
+}
+
+.hero-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* 
+@media (max-width: 768px) {
+    .hero-flex {
+        flex-direction: row;
+    }
+} */

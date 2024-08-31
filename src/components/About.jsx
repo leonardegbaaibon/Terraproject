@@ -3,26 +3,26 @@ import './About.css';
 
 function About() {
   return (
-    <div className="About-section">
-      <div className="flex flex-row w-[fit-content] box-sizing-border">
-        <div className="m-[228px_21.6px_0_0] flex flex-col items-center box-sizing-border">
-          <div className="m-[0_0_55.5px_0] flex flex-col items-center w-[fit-content] box-sizing-border">
+    <div className="about-section">
+      <div className="flex flex-col lg:flex-row w-full box-sizing-border">
+        <div className="mt-16 lg:mt-[228px] lg:mr-[21.6px] flex flex-col items-start lg:w-1/2 box-sizing-border px-4 lg:px-0">
+          <div className="m-[0_0_55.5px_0] flex flex-col items-start w-[fit-content] box-sizing-border">
             <div className="m-[0_2.4px_25.5px_0] flex flex-col w-[fit-content] box-sizing-border">
-              <div className="m-[0_0_10px_0] inline-block self-start break-words font-bold text-[24px] tracking-[7.2px] text-[#0D7309] plus-jakarta">
+              <p className="m-[0_0_10px_0] inline-block self-start break-words font-bold text-[24px] tracking-[7.2px] text-[#0D7309] text-left plus-jakarta">
                 TERRA
-              </div>
-              <span className="break-words font-bold text-[44px] text-[#1C1C1C] plus-jakarta">
+              </p>
+              <span className="break-words font-bold text-[44px] text-[#1C1C1C] text-left plus-jakarta">
                 We offer diversified tourism<br />
                 destinations in Africa
               </span>
             </div>
-            <span className="break-words text-[20px] tracking-[1px] leading-[1.5] text-[#5B5B5B] lato">
+            <span className="break-words text-[20px] tracking-[1px] leading-[1.5] text-[#5B5B5B] text-left lato">
               Hey! Terra is here to help you find your dream African holiday. Easy you just find where you want to go and buy the ticket.
             </span>
           </div>
-          <div className="m-[0_58.4px_0_0] flex flex-col items-center w-[560px] box-sizing-border">
-            <div className="m-[0_0_30px_0] flex flex-row w-[560px] box-sizing-border">
-              <div className="rounded-[30px] border-[1px_solid_#1C1C1C] bg-[#FFFFFF] m-[0_120px_0_0] flex flex-col justify-center items-center w-[220px]">
+          <div className="m-[0_0_0_0] flex flex-col items-start w-[560px] box-sizing-border">
+            <div className="m-[0_0_30px_0] flex flex-row w-[560px] box-sizing-border items-start">
+              <div className="rounded-[30px] border-[1px_solid_#1C1C1C] bg-[#FFFFFF] m-[0_120px_0_0] flex flex-col justify-center items-left w-[220px]">
                 <div className="m-[0_0_20px_0.5px] inline-block break-words font-bold text-[36px] leading-[0.833] text-[#0D7309] plus-jakarta">
                   5+
                 </div>

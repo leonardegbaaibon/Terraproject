@@ -7,4 +7,46 @@
     font-family: 'Lato', sans-serif;
     font-weight: 400; /* Regular */
   }
+
+.about-section {
+  padding: 20px 0 20px 6%;
+}
+
+.about-section > div > div > div > div > div {
+    border-radius: 30px;
+    border: 1px solid #1C1C1C;
+    background: #FFFFFF;
+    padding: 2vh;
+  }
+
+ 
+  .info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #1C1C1C;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+  }
+  
+  .info-number {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0D7309;
+    margin-bottom: 10px;
+  }
+  
+  @media (min-width: 1024px) {
+    .info-box {
+      width: 220px;
+      margin-bottom: 0;
+    }
+  
+    .info-number {
+      font-size: 36px;
+    }
+  }
   

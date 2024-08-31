@@ -1,0 +1,116 @@
+.newsletter-section {
+    width: 100%;
+  }
+  
+  .bg-section {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+  }
+  
+  .subscription-box {
+    background-color: #f4f4f4;
+    padding: 50px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .subscription-text {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #0d7309;
+    margin-bottom: 20px;
+  }
+  
+  .subscription-heading {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #1c1c1c;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .subscription-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 14px 20px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group img {
+    margin-right: 10px;
+  }
+  
+  .input-group span {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #5b5b5b;
+  }
+  
+  .subscribe-btn {
+    background-color: #a60303;
+    padding: 15px 30px;
+    border-radius: 45px;
+    color: #f2eee9;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .subscription-box {
+      padding: 20px;
+    }
+  
+    .subscription-heading {
+      font-size: 1.5rem;
+    }
+  
+    .subscription-input {
+      width: 100%;
+    }
+  
+    .input-group {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .subscribe-btn {
+      padding: 12px 20px;
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .subscription-heading {
+      font-size: 1.2rem;
+    }
+  
+    .subscribe-btn {
+      font-size: 14px;
+    }
+  
+    .input-group span {
+      font-size: 14px;
+    }
+  }
+  

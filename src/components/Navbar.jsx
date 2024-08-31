@@ -1,6 +1,6 @@
 // src/Navbar.js
 import React, { useState } from 'react';
-import logo from '../assets/Terra Origin Logo 1.png'; // Import the logo image
+import logo from '../assets/Terra Origin Logo 1.png'; 
 import './Navbar.css'; // Import CSS for styling
 
 const Navbar = () => {

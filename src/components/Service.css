@@ -1,0 +1,30 @@
+.bg-rectangle83 {
+    background-image: url('../assets/images/Rectangle83.jpeg');
+  }
+  .bg-rectangle94 {
+    background-image: url('../assets/images/Rectangle94.jpeg');
+  }
+  .bg-rectangle84 {
+    background-image: url('../assets/images/Rectangle84.jpeg');
+  }
+  .bg-rectangle92 {
+    background-image: url('../assets/images/Rectangle92.jpeg');
+  }
+  .bg-rectangle81 {
+    background-image: url('../assets/images/Rectangle81.jpeg');
+  }
+  .bg-rectangle91 {
+    background-image: url('../assets/images/Rectangle91.jpeg');
+  }
+
+  .bg-rectangle83, .bg-rectangle94, .bg-rectangle84, .bg-rectangle92, .bg-rectangle81, .bg-rectangle91 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.service-content > div {
+    padding: 6vw 0;
+    gap: 1rem;
+}

@@ -1,4 +1,8 @@
 /* src/index.css */
+/* Include in About.css or index.html */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
